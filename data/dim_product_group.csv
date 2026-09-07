@@ -1,0 +1,15 @@
+ProductGroupKey,SubDepartment,ProductGroup,ShelfLifeDays,TargetGrossMarginPct,PerishabilityBand
+PG01,Fruit & Veg,Bananas & Tropical,4,0.315,Medium
+PG02,Fruit & Veg,Salads & Herbs,3,0.36,High
+PG03,Fruit & Veg,Root Vegetables,12,0.335,Low
+PG04,Fruit & Veg,Berries & Stone Fruit,3,0.3,High
+PG05,Bakery,Bread & Rolls,2,0.51,High
+PG06,Bakery,Pastries & Cakes,2,0.545,High
+PG07,Deli,Sliced Meats,5,0.385,Medium
+PG08,Deli,Cheese,14,0.365,Low
+PG09,Deli,Hot Food & Salads,1,0.43,High
+PG10,Meat & Seafood,Beef & Lamb,4,0.268,Medium
+PG11,Meat & Seafood,Poultry,3,0.285,High
+PG12,Meat & Seafood,Seafood,2,0.31,High
+PG13,Dairy & Chilled,Milk & Cream,10,0.212,Low
+PG14,Dairy & Chilled,Yoghurt & Desserts,18,0.246,Low

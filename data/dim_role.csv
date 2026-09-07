@@ -1,0 +1,5 @@
+RoleKey,Role,BaseHourlyRate,RoleType
+R1,Department Team Member,27.8,Rostered floor
+R2,Casual Team Member,33.1,Rostered floor
+R3,Early Fill & Nightfill,29.4,Rostered floor
+R4,Duty Manager,36.2,Salaried support

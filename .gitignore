@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/
+
+# Power BI working files. The report is rebuilt from the guide, not from a binary.
+*.pbix
+*.pbip
+~$*

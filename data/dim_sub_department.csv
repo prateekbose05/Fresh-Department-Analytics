@@ -1,0 +1,6 @@
+SubDepartment,SubDepartmentSort,Category
+Bakery,1,Perishable
+Dairy & Chilled,2,Chilled
+Deli,3,Perishable
+Fruit & Veg,4,Perishable
+Meat & Seafood,5,Chilled

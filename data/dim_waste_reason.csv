@@ -1,0 +1,5 @@
+WasteReason,ReasonCategory,ReasonSort
+Date code expiry,Ordering & rotation,1
+Quality reject,Supplier & quality,2
+Damage,Handling,3
+Prep & trim loss,Production,4
