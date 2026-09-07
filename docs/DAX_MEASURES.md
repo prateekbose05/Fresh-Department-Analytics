@@ -236,6 +236,10 @@ CALCULATE ( [Trading Margin %], REMOVEFILTERS ( dim_date ), dim_date[Change Peri
 
 Trading Margin % After Change =
 CALCULATE ( [Trading Margin %], REMOVEFILTERS ( dim_date ), dim_date[Change Period] = "After change" )
+
+Markdown % Change (pts) = [Markdown % After Change] - [Markdown % Before Change]
+
+Trading Margin % Change = [Trading Margin % After Change] - [Trading Margin % Before Change]
 ```
 
 The number that pays for the whole exercise. The margin points gained, applied
