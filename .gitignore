@@ -1,4 +1,5 @@
 __pycache__/
+.pytest_cache/
 *.py[cod]
 .venv/
 venv/
@@ -9,3 +10,6 @@ venv/
 *.pbix
 *.pbip
 ~$*
+
+# Private venture notes, not for the public repo
+VENTURE_PLAN.md

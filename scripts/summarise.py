@@ -2,13 +2,14 @@
 Roll the daily facts up to a weekly summary and print every headline figure
 quoted in the README and on LinkedIn.
 
-Two jobs, on purpose. The weekly file is a fallback for a cut-down Power BI
-licence that cannot add measures to a model, and running it is how the numbers
-in the write-up get checked instead of remembered.
+Two jobs, on purpose. The weekly file is a flat rollup for anyone who wants the
+numbers without running the dashboard, and running it is how the numbers in the
+write-up get checked instead of remembered.
 
 Note the ratios in the weekly file are computed per week and cannot be averaged
-to get a period figure. Sum the dollars and divide. The Power BI measures do
-this correctly; the flat file is a convenience, not a model.
+to get a period figure. Sum the dollars and divide. The dashboard measures
+(dashboard/measures.py) do this correctly; the flat file is a convenience, not a
+model.
 
 Usage: python3 scripts/summarise.py
 """

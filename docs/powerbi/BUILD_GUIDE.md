@@ -1,5 +1,10 @@
 # Build guide
 
+> **Status: specification only. This Power BI report was not built.** The
+> dashboard in this repo is the Python one (`app.py`). My Power BI licence would
+> not allow data models to be edited in the browser, so these notes are kept as
+> the plan for a Power BI version of the same model.
+
 How the report gets built, written for Power BI in a browser because that is
 where it was built. Power BI Desktop is Windows only and this was made on a Mac,
 which turns out to matter for one step. That step is called out below rather

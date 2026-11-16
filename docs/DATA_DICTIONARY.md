@@ -133,9 +133,11 @@ already knew about Easter would leave nothing to explain.
 ## agg_weekly.csv
 
 Written by `scripts/summarise.py`. Everything rolled to the 104 weeks with the
-ratios precomputed. A fallback for a licence that cannot add measures to a model.
+ratios precomputed. A flat file for anyone who wants the weekly numbers without
+running the dashboard.
 
 The ratio columns are computed per week and cannot be averaged to get a period
 figure, because that weights a quiet January week the same as a Christmas week.
-Sum the dollars and divide. The DAX measures do this correctly and this file
-does not, which is the reason it is a fallback rather than the model.
+Sum the dollars and divide. The measures in `dashboard/measures.py` do this
+correctly and this file does not, which is the reason it is a convenience rather
+than the model.

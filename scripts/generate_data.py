@@ -3,7 +3,7 @@ Generate the synthetic dataset behind the Fresh Department Performance dashboard
 
 Everything here is invented. No Woolworths data, systems or records were used.
 The store is a fictional metro supermarket sized to look like a real one so the
-Power BI model has to solve real problems: a weekly wage budget that has to be
+model has to solve real problems: a weekly wage budget that has to be
 phased to days, waste that moves against markdown, and a labour line that does
 not fall as fast as sales.
 
@@ -431,9 +431,9 @@ def main() -> None:
 def write_workbook(tables: dict[str, list[dict]]) -> None:
     """One .xlsx, one named Excel Table per sheet.
 
-    Power BI Service in a browser imports an Excel workbook and turns each named
-    table into a table in the semantic model. Loose CSVs cannot be uploaded the
-    same way, so this workbook is the file that gets uploaded.
+    The same nine tables as the CSVs in a single file, for anyone who would
+    rather open the data in Excel or load it into a BI tool. The dashboard reads
+    the CSVs, not this workbook.
     """
     try:
         from openpyxl import Workbook
@@ -463,7 +463,7 @@ def write_workbook(tables: dict[str, list[dict]]) -> None:
     wb.save(path)
     size = os.path.getsize(path) / 1_048_576
     print(f"\n  fresh_department_data.xlsx  {size:.1f} MB, {len(tables)} tables"
-          f"  <- upload this one to Power BI")
+          f"  <- all nine tables in one file")
 
 
 if __name__ == "__main__":

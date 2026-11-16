@@ -1,5 +1,10 @@
 # DAX measure library
 
+> **Status: specification only. This Power BI report was not built.** The
+> dashboard in this repo is the Python one (`app.py`). My Power BI licence would
+> not allow data models to be edited in the browser, so these notes are kept as
+> the plan for a Power BI version of the same model.
+
 Every measure in the report, in the order I would build them. Nothing here is
 copied from a template. The comments explain the choices that are easy to get
 wrong, because those are the ones an interviewer asks about.
